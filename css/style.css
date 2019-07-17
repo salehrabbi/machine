@@ -118,6 +118,44 @@ body {
 /*================================ service-slider =====================*/
 .service-slider {
   padding: 100px 0;
+  background: url(../images/04022019-10.png) no-repeat;
+  background-position: top right;
+}
+.service-slider .section-title {
+  margin-bottom: 37px;
+}
+.service-slider .section-title h2 {
+  display: inline-block;
+  color: #08707a;
+}
+.service-slider .section-title h2:before {
+  border-color: #08707a;
+}
+
+.paginator {
+  display: inline-block;
+}
+.paginator ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.paginator ul li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #08707a;
+  color: #08707a;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 22px;
+}
+.paginator ul li i {
+  position: relative;
+  left: -1px;
+  font-size: 30px;
+  line-height: 0.9;
 }
 
 .slick-slider .item .img {

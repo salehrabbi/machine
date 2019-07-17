@@ -132,6 +132,49 @@ body {
 
 .service-slider {
     padding: 100px 0;
+    background: url(../images/04022019-10.png) no-repeat;
+    background-position: top right;
+    .section-title {
+        margin-bottom: 37px;
+        h2 {
+            display: inline-block;
+            color: #08707a;
+
+            &:before {
+                border-color: #08707a;
+            }
+        }
+    }
+}
+
+
+.paginator {
+    display: inline-block;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 2px solid #08707a;
+            color: #08707a;
+            border-radius: 50%;
+            text-align: center;
+            cursor: pointer;
+            margin-left: 22px;
+
+            i {
+                position: relative;
+                left: -1px;
+                font-size: 30px;
+                line-height: 0.9;
+            }
+        }
+    }
 }
 
 .slick-slider {
@@ -155,6 +198,7 @@ body {
             position: relative;
             margin-left: 29%;
             margin-bottom: 7px;
+
             &:after {
                 content: "";
                 display: block;
