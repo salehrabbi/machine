@@ -205,14 +205,14 @@ body {
   line-height: 0.9;
 }
 
-.slick-slider .item .img {
+.service-slider .item .img {
   width: 395px;
   height: 456px;
 }
-.slick-slider .item .img img {
+.service-slider .item .img img {
   border-top: 5px solid #08707a;
 }
-.slick-slider .item .text {
+.service-slider .item .text {
   padding: 32px 45px 40px 45px;
   color: #fff;
   width: 395px;
@@ -222,8 +222,10 @@ body {
   position: relative;
   margin-left: 29%;
   margin-bottom: 7px;
+  background: url(../images/slider-arrow.png) no-repeat #032b2f;
+  background-position: right top;
 }
-.slick-slider .item .text:after {
+.service-slider .item .text:after {
   content: "";
   display: block;
   background-color: #d0d3c5;
@@ -236,41 +238,41 @@ body {
   margin: 0 auto;
   z-index: 10;
 }
-.slick-slider .item .text h4 {
+.service-slider .item .text h4 {
   margin: 0;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 3px;
 }
-.slick-slider .item .text h2 {
+.service-slider .item .text h2 {
   font-size: 28px;
   font-weight: 900;
   margin: 0;
   margin-bottom: 20px;
 }
-.slick-slider .item .text h3 {
+.service-slider .item .text h3 {
   margin: 0;
   font-size: 20px;
   font-weight: 700;
   margin: 13px 0 15px 0;
 }
-.slick-slider .item .text p {
+.service-slider .item .text p {
   margin: 0;
   font-size: 16px;
   line-height: 1.75;
 }
-.slick-slider .item .text ul {
+.service-slider .item .text ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.slick-slider .item .text ul li {
+.service-slider .item .text ul li {
   margin-bottom: 6px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.75;
 }
-.slick-slider .item .text ul li:before {
+.service-slider .item .text ul li:before {
   content: "-";
   display: inline-block;
   font-weight: 700;
@@ -402,4 +404,47 @@ body {
   color: #fff;
   font-size: 15px;
   font-weight: 500;
+}
+
+/*================================ careers-banner =====================*/
+.careers-banner {
+  background: url(../images/car-banner.png) no-repeat;
+  background-size: cover;
+  min-height: 675px;
+}
+
+.career-banner-bottom {
+  background-color: #032b2f;
+  color: #fff;
+  padding: 50px 0;
+}
+.career-banner-bottom h2 {
+  margin: 0;
+  font-size: 46px;
+  font-weight: 900;
+}
+.career-banner-bottom p {
+  margin: 0;
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 1.5862068966;
+  max-width: 543px;
+}
+
+/*================================ carrer-slider =====================*/
+.carrer-slider {
+  padding-bottom: 200px;
+}
+.carrer-slider .item .text {
+  margin-top: 0;
+  margin-left: 0;
+  position: absolute;
+  top: 75px;
+  right: 0;
+  width: 84%;
+  background-position: 95% top;
+  height: auto;
+}
+.carrer-slider .item .text p {
+  margin-bottom: 20px;
 }

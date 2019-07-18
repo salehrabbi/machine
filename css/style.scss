@@ -153,6 +153,7 @@ body {
 
 .navbar-nav > li {
     padding: 15px;
+
     > a {
         font-size: 18px;
         font-weight: 500;
@@ -227,7 +228,7 @@ body {
     }
 }
 
-.slick-slider {
+.service-slider {
     .item {
         .img {
             width: 395px;
@@ -248,7 +249,8 @@ body {
             position: relative;
             margin-left: 29%;
             margin-bottom: 7px;
-
+            background: url(../images/slider-arrow.png) no-repeat #032b2f;
+            background-position: right top;
             &:after {
                 content: "";
                 display: block;
@@ -458,6 +460,54 @@ body {
                 color: #fff;
                 font-size: 15px;
                 font-weight: 500;
+            }
+        }
+    }
+}
+
+
+/*================================ careers-banner =====================*/
+.careers-banner {
+    background: url(../images/car-banner.png) no-repeat;
+    background-size: cover;
+    min-height: 675px;
+}
+
+.career-banner-bottom {
+    background-color: #032b2f;
+    color: #fff;
+    padding: 50px 0;
+    h2 {
+        margin: 0;
+        font-size: 46px;
+        font-weight: 900;
+    }
+
+    p {
+        margin: 0;
+        font-size: 29px;
+        font-weight: 300;
+        line-height: (46/29);
+        max-width: 543px;
+    }
+}
+
+/*================================ carrer-slider =====================*/
+
+.carrer-slider {
+    padding-bottom: 200px;
+    .item {
+        .text {
+            margin-top: 0;
+            margin-left: 0;
+            position: absolute;
+            top: 75px;
+            right: 0;
+            width: 84%;
+            background-position: 95% top;
+            height: auto;
+            p{
+                margin-bottom: 20px;
             }
         }
     }

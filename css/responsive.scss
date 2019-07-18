@@ -23,6 +23,10 @@
 
 
 @media (max-width: 991px) {
+    .main-header {
+        padding: 10px 0;
+    }
+
     .navbar-header {
         float: none;
     }
@@ -140,6 +144,17 @@
         margin-top: -56%;
         margin-left: 45%;
     }
+
+    .carrer-slider .item .text {
+        position: relative;
+        top: 0;
+        margin-top: -50%;
+        margin-left: 15%;
+    }
+
+    .carrer-slider {
+        padding-bottom: 100px;
+    }
 }
 
 
@@ -163,6 +178,24 @@
 
     .main-footer .footer-menu li {
         margin: 3px 17px;
+    }
+
+    .careers-banner {
+        min-height: 450px;
+    }
+
+    .career-banner-bottom h2 {
+        font-size: 35px;
+    }
+
+    .career-banner-bottom p {
+        font-size: 20px;
+    }
+
+    .service-slider,
+    .contact,
+    .banner {
+        padding: 50px 0;
     }
 }
 
@@ -236,5 +269,30 @@
 
     .navbar-toggle {
         margin-top: 14px;
+    }
+
+    .service-slider .item .img {
+        width: 100%;
+        height: auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .carrer-slider .item .text {
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .slick-slider .item .text {
+        width: 100%;
+        position: relative;
+        margin: 0;
+        top: 0;
+        height: auto;
     }
 }
